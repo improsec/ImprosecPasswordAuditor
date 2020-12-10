@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="file">
+      <UniqueIdentifier>{89357b01-fcbb-47e7-baf8-8922dd64337d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="scanner">
+      <UniqueIdentifier>{192f3c14-6bb1-4d08-b3ee-202feb60c53f}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="hash_file.cpp">
+      <Filter>file</Filter>
+    </ClCompile>
+    <ClCompile Include="hash_scanner.cpp">
+      <Filter>scanner</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="hash_file.hpp">
+      <Filter>file</Filter>
+    </ClInclude>
+    <ClInclude Include="hash_scanner.hpp">
+      <Filter>scanner</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
