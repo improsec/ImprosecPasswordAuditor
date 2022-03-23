@@ -1,5 +1,8 @@
 #include "hash_scanner.hpp"
 
+#include <algorithm>
+#include <stdexcept>
+
 namespace psi {
 
 void hash_scanner::source_add(std::string const& filename)
