@@ -86,9 +86,9 @@ It is important that the installed version of the Visual C++ Redistributable pac
 This file contains a binary packed list of leaked password hashes from the PwnedPasswords list published by Troy Hunt. The file is too big (8.5 GB) for GitHub (max 25 MB), so we host it on our SharePoint instead. 
 
 ##### Installation step-by-step
-* Go to [Improsec Leaked Password List](https://improsec-my.sharepoint.com/:u:/p/vca/EfkYRlAhwlNKuoKOKA6ZG2sByZKnVXfz9bk1vpAFlILxow).
-* Download the _leaked-passwords-v6.bin_ file:
-	* SHA1: `11f8f33715f76b912328ed688af99c97d42eb3e5`.
+* Go to [Improsec Leaked Password List](https://improsec-my.sharepoint.com/:u:/p/vca/EUmYP8BOIYNJl9Id3mYY_YABp_WEBI4PYXV9Bp26I_iDBw?e=uIruNW).
+* Download the _leaked-passwords-v8.bin_ file:
+  * SHA1: `f4fe0b1cbbfd11bd6cd8fd4a28000cd61390104b`.
 * Place the file in the `./Accessible/PasswordLists/` folder.
 
 ## Install
