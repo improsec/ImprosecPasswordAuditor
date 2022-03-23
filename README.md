@@ -83,7 +83,7 @@ Microsoft Visual C++ Redistributable Package is required by our *ipf.dll* filter
 It is important that the installed version of the Visual C++ Redistributable package matches the platform and the Visual Studio version used to compile the solution (default: x64 with Visual Studio 2017). If not, the DLL will fail to locate its dependencies and will not load.
 
 ### Leaked password list
-This file contains a binary packed list of leaked password hashes from the PwnedPasswords list published by Troy Hunt. The file is too big (8.5 GB) for GitHub (max 25 MB), so we host it on our SharePoint instead. 
+This file contains a binary packed list of leaked password hashes from the PwnedPasswords list published by Troy Hunt. The file is too big (13.5 GB) for GitHub (max 25 MB), so we host it on our SharePoint instead. 
 
 ##### Installation step-by-step
 * Go to [Improsec Leaked Password List](https://improsec-my.sharepoint.com/:u:/p/vca/EUmYP8BOIYNJl9Id3mYY_YABp_WEBI4PYXV9Bp26I_iDBw?e=uIruNW).
