@@ -102,7 +102,7 @@ New-EventLog -Source "ipasvc" -LogName "Improsec Password Auditor"
 Now the service can be registered as a regular Windows service using the Windows Service Manager (_sc.exe_) or using the following PowerShell command from the root directory of the Improsec Password Auditor service:
 
 ```powershell
-New-Service -Name "ipsvc" -BinaryPathName "$($pwd)\ipsvc" -DisplayName "Improsec Password Auditor service" -StartupType Automatic
+New-Service -Name "ipasvc" -BinaryPathName "$($pwd)\ipasvc.exe" -DisplayName "Improsec Password Auditor service" -StartupType Automatic
 ```
 
 Finally, if the binary-packed list of leaked passwords from Troy Hunt *(leaked-password.bin*) does not previously exist in the “data” directory, this should be downloaded and placed in that folder before starting the service, as this is the file referenced by the service to verify if a password is leaked or not.
